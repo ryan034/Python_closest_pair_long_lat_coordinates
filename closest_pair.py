@@ -8,7 +8,7 @@ def closest_pair(cities_list):
     
     closest_locations = prime_meridian(closest_locations,cities_list)
 
-    return closest_locations
+    print("Closest locations: " + closest_locations[1][0] + " and " + closest_locations[2][0] + ", " + str(round(closest_locations[0],1)) + "km apart." )   
     
 def prime_meridian(delta_pair,point_list):
     
@@ -179,15 +179,9 @@ def delta_to_degree(delta_pair):
     return delta_pair[0]/(2*6371*pi/360)
     
 
-def main():
     
-    cities_list = [('A',1,45),('b',-2,12),('c',5,-7),('d',65,12),('e',55,43),('f',25,-100),('g',-5,-24),('h',-5,9),('j',-5,-179)]
     
-    closest_locations = closest_pair(cities_list)
     
-    print("Closest locations: " + closest_locations[1][0] + " and " + closest_locations[2][0] + ", " + str(round(closest_locations[0],1)) + "km apart." )   
 
 
 
-
-main()
