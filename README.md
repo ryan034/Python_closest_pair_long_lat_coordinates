@@ -1,6 +1,6 @@
 Implementation of divide and conquer algorithm for closest pair problem with O(nlogn) complexity. <https://en.wikipedia.org/wiki/Closest_pair_of_points_problem>
 
-Input is a list of tuples. Each tuple consisting of a location name, latitude coordinate and longitude coordinate respectively. 
+Input is a list of tuples. Each tuple consisting of a location name, latitude coordinate and longitude coordinate respectively. Ouputs the two closest coordinates and thier distance apart. 
 
 eg.
 ```
