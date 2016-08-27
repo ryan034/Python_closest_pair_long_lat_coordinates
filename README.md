@@ -1,4 +1,4 @@
-Implementation of divide and conquer algorithm for closest pair problem with O(nlogn) complexity. <https://en.wikipedia.org/wiki/Closest_pair_of_points_problem>
+Implementation of divide and conquer algorithm for closest pair problem with O(nlogn) complexity in python. <https://en.wikipedia.org/wiki/Closest_pair_of_points_problem>
 
 Input is a list of tuples. Each tuple consisting of a location name, latitude coordinate and longitude coordinate respectively. Ouputs the two closest coordinates and their distance apart. 
 
